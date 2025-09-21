@@ -97,7 +97,7 @@ task clean(type: Delete) {
         doLast {
             exec {
                 workingDir flashDir
-                commandLine "./flashable.sh"
+                commandLine "./flashable.sh", "-d" ,"out"
             }
         }
     }
