@@ -73,7 +73,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ${{ steps.prepareArtifact.outputs.releaseName }}
-          path: './out/*.zip'
+          path: './out/*'
       - name: Upload debug
         if: ${{ github.event_name == 'pull_request' && success() }}
         uses: actions/upload-artifact@v4
