@@ -6,7 +6,7 @@ This fork is a version of Riru that does not require Magisk to be installed on t
 
 ## Requirements
 
-* Android 6.0+ devices
+* Android 7.0+ devices
 
 And if you want to use the provided template to install MagiskLess-Riru on the device:
 * Permissive 'su' SELinux context (should be present on userdebug builds such as on LineageOS)
